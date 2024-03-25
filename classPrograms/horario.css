@@ -1,0 +1,42 @@
+/* Estilos para la tabla */
+table#fondo {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 2px double black; /* Borde doble de 2px de ancho en color negro */
+    text-align: center; /* Texto centrado en la tabla */
+    align-content: center;
+    background-color: lightblue;
+}
+
+/* Estilos para las celdas */
+tr {
+    padding: 8px;
+    background-color: lightblue;
+}
+
+td, th{
+        border: 1px solid navy; /* Borde de 1px, línea continua y color azul marino */
+}
+
+
+/* Estilos para el fondo de la tabla */
+#fondo {
+    background-color: #acbaf4; /* Azul claro */
+}
+
+/* Estilos para las celdas con la hora */
+td.hora{
+    color: #0000ff; /* Azul fuerte */
+    font-weight: bold;
+}
+
+/* Estilos para las celdas libres */
+.libre {
+    background-color: #4658e3; /* Azul */
+}
+
+div{
+    width: 80%;
+    margin: 0 auto;
+}

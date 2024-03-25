@@ -1,0 +1,15 @@
+.title{
+    text-align: center;
+}
+
+.navigator{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.navigator li{
+    padding: 20px;
+    list-style-type: none;   
+}

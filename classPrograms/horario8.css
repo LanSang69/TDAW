@@ -1,0 +1,39 @@
+table {
+    margin-bottom: 20px;
+    border: 2px double black;
+    text-align: center;
+    
+}
+
+th {
+    background-color: navy; 
+    color: white;
+    border: 1px double navy;
+    padding: 8px;
+    width: 15%;
+    font-size: 16px;
+}
+
+td {
+    border: 1px solid navy;
+    padding: 8px;
+    font-size: 14px;
+}
+
+#fondo {
+    background-color: #acbaf4; 
+}
+
+.hora {
+    color: #0000ff; 
+    font-weight: bold;
+}
+
+.libre {
+    background-color: #4658e3;
+}
+
+div{
+    width: 80%;
+    margin: 0 auto;
+}

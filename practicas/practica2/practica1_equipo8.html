@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTEF-8">
+    <title>Alumnos nuevo ingreso</title>
+    <meta name="author" content="PEM">
+</head>
+
+<body>
+    <main>
+        <div>
+            <h1>Alumnos de Nuevo Ingreso
+                (Agosto 2024)</h1>
+            <form action="" method="GET" name="datos">
+
+                <!-- Contacto -->
+                <fieldset>
+                    <legend> Contacto </legend>
+                <label for="calle"> Calle: </label>
+                <input type="text" name="calle" id="calle" placeholder="Ingresa el nombre de tu calle"><br>
+                <label for="Num"> Numero: </label>
+                <input type="text" name="numCall" id="numCall" placeholder="Ingresa tu numero de casa"><br>
+                <label for="col"> Colonia: </label>
+                <input type="text" name="col" id="col" placeholder="Ingresa tu colonia"><br>
+                <label for="alcal"> Alcaldía </label>
+                <select>
+                    <option value="..."> Selecciona una Alcaldía </option>
+                    <option value="alvObr"> Álvaro Obregón </option>
+                    <option value="az"> Azcapotzalco </option>
+                    <option value="beni"> Benito Juárez </option>
+                    <option value="coyo"> Coyoacán </option>
+                    <option value="cuaji"> Cuajimalpa de Morelos </option>
+                    <option value="cuau"> Cuauhtémoc </option>
+                    <option value="gusMad"> Gustavo A. Madero </option>
+                    <option value="iztacal"> Iztacalco </option>
+                    <option value="iztapa"> Iztapalapa </option>
+                    <option value="magda"> La Magdalena Contreras </option>
+                    <option value="miguelH"> Miguel Hidalgo </option>
+                    <option value="milpaAlt"> Milpa Alta </option>
+                    <option value="tlahu"> Tláhuac </option>
+                    <option value="tlal"> Tlalpan </option>
+                    <option value="venCar"> Venustiano Carranza </option>
+                    <option value="xochi"> Xochimilco </option>
+                </select><br>
+                <label for="cod"> Código postal: </label>
+                <input type="tel" name="code" id="code" pattern="[0-9]{5}" placeholder="Ingresa tu Código postal"><br>
+                <label for="telefono"> Número telefonico: </label>
+                <input type="tel" name="telefono" id="telefono" pattern="[0-9]{10}" placeholder="Ingresa tu número telefonico"><br>
+                <label for="correo"> Correo electronico: </label>
+                <input type="email" name="correo" id="correo" placeholder="Ingresa un correo"><br>
+                </fieldset>
+
+                <!-- Procedencia -->
+                <fieldset>
+                    <legend>Procedencia</legend>
+                    <label for="escuelaP">Escuela de procedencia:</label>
+                    <select name="escuelaP" id="escuelaP">
+
+                        <option value="cecyt1">CECyT No. 1 Gonzalo Vázquez Vela</option>
+                        <option value="cecyt2">CECyT No. 2 Miguel Bernard</option>
+                        <option value="cecyt3">CECyT No. 3 Estanislao Ramírez Ruiz</option>
+                        <option value="cecyt4">CECyT No. 4 Lázaro Cárdenas</option>
+                        <option value="cecyt5">CECyT No. 5 Benito Juárez</option>
+                        <option value="cecyt6">CECyT No. 6 Miguel Othón de Mendizábal</option>
+                        <option value="cecyt7">CECyT No. 7 Cuauhtémoc</option>
+                        <option value="cecyt8">CECyT No. 8 Narciso Bassols</option>
+                        <option value="cecyt9">CECyT No. 9 Juan de Dios Bátiz</option>
+                        <option value="cecyt10">CECyT No. 10 Carlos Vallejo Márquez</option>
+                        <option value="cecyt11">CECyT No. 11 Wilfrido Massieu</option>
+                        <option value="cecyt12">CECyT No. 12 José María Morelos</option>
+                        <option value="cecyt13">CECyT No. 13 Ricardo Flores Magón</option>
+                        <option value="cecyt14">CECyT No. 14 Luis Enrique Erro</option>
+                        <option value="cecyt15">CECyT No. 15 Diódoro Antúnez Echegaray</option>
+                        <option value="cecyt16">CECyT No. 16 Hidalgo</option>
+                        <option value="cecyt17">CECyT No. 17 León, Guanajuato</option>
+                        <option value="cecyt18">CECyT No. 18 Zacatecas</option>
+                        <option value="cecyt19">CECyT No. 19 Leona Vicario</option>
+                        <option value="cet1">CET 1 Walter Cross Buchanan</option>
+                        <option value="otro">Otra</option>
+
+                    </select>
+                    <br>
+
+                    <label for="entidadFed">Entidad Federativa:</label>
+                    <select name="entidadFed" id="entidad_fed">
+                        <option value="Aguascalientes">Aguascalientes</option>
+                        <option value="Baja_California">Baja California</option>
+                        <option value="Baja_California_Sur">Baja California Sur</option>
+                        <option value="Campeche">Campeche</option>
+                        <option value="CDMX" selected>Ciudad de México</option>
+                        <option value="Chiapas">Chiapas</option>
+                        <option value="Chihuahua">Chihuahua</option>
+                        <option value="Coahuila">Coahuila</option>
+                        <option value="Colima">Colima</option>
+                        <option value="Durango">Durango</option>
+                        <option value="Edomex">Estado de México</option>
+                        <option value="Guanajuato">Guanajuato</option>
+                        <option value="Guerrero">Guerrero</option>
+                        <option value="Hidalgo">Hidalgo</option>
+                        <option value="Jalisco">Jalisco</option>
+                        <option value="Michoacan">Michoacán</option>
+                        <option value="Morelos">Morelos</option>
+                        <option value="Nayarit">Nayarit</option>
+                        <option value="Nuevo_Leon">Nuevo León</option>
+                        <option value="Oaxaca">Oaxaca</option>
+                        <option value="Puebla">Puebla</option>
+                        <option value="Queretaro">Querétaro</option>
+                        <option value="Quintana_Roo">Quintana Roo</option>
+                        <option value="San_Luis_Potosí">San Luis Potosí</option>
+                        <option value="Sinaloa">Sinaloa</option>
+                        <option value="Sonora">Sonora</option>
+                        <option value="Tabasco">Tabasco</option>
+                        <option value="Tamaulipas">Tamaulipas</option>
+                        <option value="Tlaxcala">Tlaxcala</option>
+                        <option value="Veracruz">Veracruz</option>
+                        <option value="Yucatan">Yucatán</option>
+                        <option value="Zacatecas">Zacatecas</option>
+                    </select>
+                    <br>
+
+                    <label for="escuelaE">Nombre de la escuela:</label>
+                    <input type="text" name="escuelaE" id="escuelaE"><br>
+
+                    <label for="promedio">Promedio:</label>
+                    <input type="tel" step="any" name="promedio" id="promedio" placeholder="p.e. 9.0" pattern="{4}"><br>
+                    <label>ESCOM fue tu: </label>
+                    <input type="checkbox" id="opcion1" name="opcion1" value="opcion1"> 1° Opcion
+                    <input type="checkbox" id="opcion2" name="opcion2" value="opcion2"> 2° Opcion
+                    <input type="checkbox" id="opcion3" name="opcion3" value="opcion3"> 3° Opcion
+                    <input type="checkbox" id="opcion3" name="opcion3" value="opcion3"> 4° Opcion
+                    
+                </fieldset>
+
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpiar">
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
